@@ -1,6 +1,6 @@
 #pragma once
 
-typedef unsigned char uint8_t;
+using uint8_t = unsigned char ;
 
 //todo: is namespace useful here?
 
