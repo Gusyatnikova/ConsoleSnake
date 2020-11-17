@@ -6,4 +6,4 @@ The aim of this project is to practice while studying the book by Stephen Prata.
 2. Project in procedural paradigm (after chapter 9)                  <--- Started
 3. Project in object-oriented paradigm (at the end of the study)
 
-# For exercises from the book i have another project - StephenPrataExercises
+For exercises from the book i have another project - StephenPrataExercises
