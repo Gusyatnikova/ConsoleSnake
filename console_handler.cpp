@@ -41,25 +41,6 @@ namespace consoleOut {
 		cursor_to_xy(game.food_pos.column, game.food_pos.row);
 		std::cout << food_pic;
 		cursor_to_xy(0, 25);
-		/*
-		HWND myconsole = GetConsoleWindow();
-		//Get a handle to device context
-		HDC mydc = GetDC(myconsole);
-
-		int pixel = 0;
-
-		//Choose any color
-		COLORREF COLOR = RGB(255, 10, 5);
-
-		//Draw pixels
-		for (double i = 0; i < 3.14 * 4; i += 0.05)
-		{
-			SetPixel(mydc, pixel, (int)(50 + 25 * cos(i)), COLOR);
-			pixel += 1;
-		}
-
-		ReleaseDC(myconsole, mydc);
-		*/
 	}
 
 	void clearField(const snakeGame::SnakeGame& game) {
